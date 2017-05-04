@@ -4,7 +4,6 @@ import NavBar from './../../partials/NavBar';
 import SideBar from './../../partials/SideBar';
 import PanelTitle from './../../partials/PanelTitle';
 
-import HomeAdmin from './HomeAdmin';
 class Dashboard extends Component {
   render() {
     return (

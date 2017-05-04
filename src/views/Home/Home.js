@@ -4,7 +4,6 @@ class Home extends Component {
     return (
       <div>
         <div className="container">
-          <h1>Home</h1>
           {this.props.children}
         </div>
       </div>

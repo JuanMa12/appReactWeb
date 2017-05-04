@@ -1,12 +1,13 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
+
 class SideBar extends Component {
   render() {
+    const homeClass = location.hash === "#/admin" ? "active" : ""
+    const plansClass = location.hash.match("#/admin/home") ? "active" : ""
     return (
       <aside className="main-sidebar">
-
         <section className="sidebar">
-
           <div className="user-panel">
             <div className="pull-left image">
               <img src="../img/avatar.png" className="img-circle" alt="..."/>
@@ -16,23 +17,18 @@ class SideBar extends Component {
               <a href="#"><i className="fa fa-circle text-success"></i> Online</a>
             </div>
           </div>
-
           <ul className="sidebar-menu">
             <li className="header">MAIN NAVIGATION</li>
-            <li className="active treeview">
+            <li className={'treeview'+homeClass}>
               <Link to="/admin">
-                <i className="fa fa-dashboard"></i> <span>Homeadminb</span>
+                <i className="fa fa-dashboard"></i> <span>Home</span>
               </Link>
             </li>
-            <li className="treeview">
+            <li className={'treeview'+plansClass}>
               <Link to="/admin/home">
                 <i className="fa fa-files-o"></i>
-                <span>Dashboard</span>
-                <span className="pull-right-container">
-                  <span className="label label-primary pull-right">4</span>
-                </span>
+                <span>Plans</span>
               </Link>
-
             </li>
             <li>
               <a href="pages/widgets.html">

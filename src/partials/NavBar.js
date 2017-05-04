@@ -26,7 +26,7 @@ class NavBar extends Component {
                         <li>
                           <a href="#">
                             <div className="pull-left">
-                              <img src="../img/avatar.png" className="img-circle" alt="User Image" />
+                              <img src="../img/avatar.png" className="img-circle" alt="..." />
                             </div>
                             <h4>
                               Support Team
@@ -39,7 +39,7 @@ class NavBar extends Component {
                         <li>
                           <a href="#">
                             <div className="pull-left">
-                              <img src="../img/avatar.png" className="img-circle" alt="User Image" />
+                              <img src="../img/avatar.png" className="img-circle" alt="..." />
                             </div>
                             <h4>
                               AdminLTE Design Team
@@ -51,7 +51,7 @@ class NavBar extends Component {
                         <li>
                           <a href="#">
                             <div className="pull-left">
-                              <img src="../img/avatar.png" className="img-circle" alt="User Image" />
+                              <img src="../img/avatar.png" className="img-circle" alt="..." />
                             </div>
                             <h4>
                               Developers
@@ -63,7 +63,7 @@ class NavBar extends Component {
                         <li>
                           <a href="#">
                             <div className="pull-left">
-                              <img src="../img/avatar.png" className="img-circle" alt="User Image" />
+                              <img src="../img/avatar.png" className="img-circle" alt="..." />
                             </div>
                             <h4>
                               Sales Department
@@ -75,7 +75,7 @@ class NavBar extends Component {
                         <li>
                           <a href="#">
                             <div className="pull-left">
-                              <img src="../img/avatar.png" className="img-circle" alt="User Image" />
+                              <img src="../img/avatar.png" className="img-circle" alt="..." />
                             </div>
                             <h4>
                               Reviewers
@@ -212,7 +212,7 @@ class NavBar extends Component {
                   <ul className="dropdown-menu">
 
                     <li className="user-header">
-                      <img src="../img/avatar.png" className="img-circle" alt="User Image" />
+                      <img src="../img/avatar.png" className="img-circle" alt="..." />
 
                       <p>
                         Alexander Pierce - Web Developer
