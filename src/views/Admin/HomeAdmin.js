@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
+import {Link} from 'react-router-dom'
 import { showPlans } from './../../actions'
 
 class HomeAdmin extends Component {
@@ -15,6 +16,15 @@ class HomeAdmin extends Component {
          <td>{plan.name}</td>
          <td>{plan.price}</td>
          <td>{plan.expiration_days}</td>
+         <td>
+            <Link to={'/admin/plan/'+plan.id} className="btn btn-warning">
+              <i className="fa fa-edit"></i>
+            </Link>
+            <span>&nbsp;</span>
+            <a className="btn btn-danger">
+              <i className="fa fa-trash"></i>
+            </a>
+         </td>
        </tr>
      )
    })
@@ -30,6 +40,7 @@ class HomeAdmin extends Component {
             <th>Name</th>
             <th>Price</th>
             <th>Expiration Days</th>
+            <th></th>
           </tr>
           </thead>
           <tbody>

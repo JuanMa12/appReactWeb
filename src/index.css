@@ -1,2 +1,7 @@
 body {margin: 0;padding: 0;font-family: sans-serif;}
 .img-plan{width: 50px;height: 50px}
+.check{position: absolute; top: -20%; left: -20%; display: block; width: 140%;
+  height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;}
+.helpCheck{position: absolute; top: -20%; left: -20%; display: block; width: 140%;
+  height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;}
+.login-box-1{background-color: #222D32 !important}

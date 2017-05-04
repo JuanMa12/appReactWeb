@@ -95,7 +95,12 @@ class SideBar extends Component {
                 <li><a href="pages/tables/data.html"><i className="fa fa-circle-o"></i> Data tables</a></li>
               </ul>
             </li>
-            <li><a href="documentation/index.html"><i className="fa fa-book"></i> <span>Documentation</span></a></li>
+            <li>
+              <Link to="/login">
+                <i className="fa fa-sign-in"></i>
+                <span>Login</span>
+              </Link>
+            </li>
           </ul>
         </section>
       </aside>
