@@ -4,6 +4,9 @@ import {Link} from 'react-router-dom'
 import { showPlans } from './../../actions'
 
 class HomeAdmin extends Component {
+  handleClick() {
+    console.log('delete:', this);
+  }
   componentWillMount() {
        this.props.showPlans()
   }
@@ -21,7 +24,7 @@ class HomeAdmin extends Component {
               <i className="fa fa-edit"></i>
             </Link>
             <span>&nbsp;</span>
-            <a className="btn btn-danger">
+            <a onClick={(e) => this.handleClick(e)} className="btn btn-danger">
               <i className="fa fa-trash"></i>
             </a>
          </td>

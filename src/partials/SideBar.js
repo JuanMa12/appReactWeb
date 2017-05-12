@@ -31,12 +31,12 @@ class SideBar extends Component {
               </Link>
             </li>
             <li>
-              <a href="pages/widgets.html">
+              <Link to="/admin/clock">
                 <i className="fa fa-th"></i> <span>Widgets</span>
                 <span className="pull-right-container">
                   <small className="label pull-right bg-green">new</small>
                 </span>
-              </a>
+              </Link>
             </li>
             <li className="treeview">
               <a href="#">
